@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+movies = Movie.create([{ title: 'Star Wars', director: "George Lucas", year: "2008" }, { title: 'Lord of the Rings', director: "Peter Jackson", year: "2001" }, { title: 'E.T.', director: "Steven Spielberg", year: "1982" } ])
